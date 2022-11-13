@@ -33,17 +33,34 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
   }
 }
-</style>
-<body>
 
-<h2>Responsive Navigation Bar with Icons</h2>
-<p>Try to resize the browser window to see the responsive effect.</p>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    
+</style>
+<head>
+    <div class="container">
+        <img src="art bg.jpeg" alt="artpic" width="900" height="400">
+        <div class="centered"><h1>Welcome to The Magical Art Class</h1></div>
+    </div> 
+</head>
+<body class="bg-img" style="Background-Image: url('transparent bg.jpg');">
 
 <div class="navbar">
   <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="#"><i class="search"></i> Search</a> 
+  <a href="#"><i class="contact"></i> Contact Us For More Info</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Join Us</a>
 </div>
 
 </body>
