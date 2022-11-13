@@ -1,2 +1,2 @@
 # My-Website
-Tution Centre
+Tuition Centre
