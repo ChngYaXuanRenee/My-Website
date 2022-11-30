@@ -1,45 +1,32 @@
-// change your api key in the place of html hidden input YOUR__API__KEY
+function CopyToClipboard (containerid) {
+    var btnCopy = document.getElementById( "copy" );
+    var main = document.getElementById( "maincontent" );
+ 
+    var textarea = document.createElement("textarea");
+    textarea.id = "temp_element";
 
+    textarea.style.height = 0;
+  
+    document.body.appendChild(textarea);
+ 
+    textarea.value = document.getElementById(containerid).innerText;
+  
+    var selector = document.querySelector("#temp_element");
+    selector.select();
+    document.execCommand("copy");
 
-
-const form = document.getElementById("form");
-const result = document.getElementById("result");
-
-form.addEventListener("submit", function (e) {
-    const formData = new FormData(form);
-    e.preventDefault();
-    var object = {};
-    formData.forEach((value, key) => {
-        object[key] = value;
-    });
-    var json = JSON.stringify(object);
-    result.innerHTML = "Please wait...";
-
-    fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-        },
-        body: json,
-    })
-    .then(async (response) => {
-        let json = await response.json();
-        if (response.status == 200) {
-            result.innerHTML = json.message;
-        } else {
-            console.log(response);
-            result.innerHTML = json.message;
-        }
-    })
-    .catch((error) => {
-        console.log(error);
-        result.innerHTML = "Something went wrong!";
-    })
-    .then(function () {
-        form.reset();
-        setTimeout(() => {
-            result.style.display = "none";
-        }, 5000);
-    });
-});
+    document.body.removeChild(textarea); 
+  
+    if ( document.execCommand( "copy" ) ) {
+        btnCopy.classList.add( "copied" );
+      
+        var temp = setInterval( function(){
+          btnCopy.classList.remove( "copied" );
+          clearInterval(temp);
+        }, 600 );
+      
+    } else {
+      console.info( "document.execCommand went wrong…" );
+    }
+      
+  }
