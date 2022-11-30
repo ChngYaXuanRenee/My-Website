@@ -644,6 +644,33 @@ button:focus {
 
 
 
+.containersub {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 20%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
 
 
 
@@ -921,6 +948,24 @@ button:focus {
 <br>
 <br>
 <br>
+<form action="/action_page.php">
+  <div class="containersub">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Class and workshop updates, new prints, upcoming shows, promos, and other drawy drawy things – keep updated by subscribing!</p>
+  </div>
+
+  <div class="containersub" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="containersub">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
 
 
 
