@@ -211,7 +211,7 @@ body > div.flex > div > div form button:hover {
 
 .social-menu ul{
     position: absolute;
-    top: 220%;
+    top: 215%;
     left: 50%;
     padding: 0;
     margin: 0;
@@ -294,7 +294,7 @@ body > div.flex > div > div form button:hover {
 
 
 
-
+/* The popup chat */
 .open-button {
   background-color: rgb(248, 151, 151);
   color: white;
@@ -308,7 +308,6 @@ body > div.flex > div > div form button:hover {
   width: 280px;
 }
 
-/* The popup chat - hidden by default */
 .chat-popup {
   display: none;
   position: fixed;
@@ -318,14 +317,12 @@ body > div.flex > div > div form button:hover {
   z-index: 9;
 }
 
-/* Add styles to the form container */
 .form-container {
   max-width: 300px;
   padding: 10px;
   background-color: rgb(241, 218, 218);
 }
 
-/* Full-width textarea */
 .form-container textarea {
   width: 100%;
   padding: 15px;
@@ -336,13 +333,12 @@ body > div.flex > div > div form button:hover {
   min-height: 200px;
 }
 
-/* When the textarea gets focus, do something */
 .form-container textarea:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for the submit/send button */
+
 .form-container .btn {
   background-color: #7dc8ad;
   color: white;
@@ -354,15 +350,102 @@ body > div.flex > div > div form button:hover {
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
+
 .form-container .cancel {
   background-color: rgb(253, 115, 115);
 }
 
-/* Add some hover effects to buttons */
+
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
 
 
 
@@ -487,10 +570,27 @@ body > div.flex > div > div form button:hover {
     <p>Early birds bonus! Regsiter your kids early to get exlusive deals here. We will always welcome you and give your children the best visual arts expeerience with multiple art mediums!</p>
   </div>
   <div class="containerpromo">
-    <p>Use Promo Code: <span class="promo">SW341</span></p>
+    <p>Use Promo Code given below</p>
     <p class="expire">Expires: Dec 21, 2022</p>
   </div>
 </div>
+
+<br>
+
+<div class="box">
+	<a class="button" href="#popup1">Let me Pop up</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Surpise!</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			You are entilted for promo code! PROMO CODE: SW241
+		</div>
+	</div>
+</div>
+
 
 
 
