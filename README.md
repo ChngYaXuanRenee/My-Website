@@ -2,7 +2,7 @@
 
 Tuition Centre
 
-This website is designed for an art tuition center cater to children. I want this project to look like an ideal tuition center website that has a great aspect for marketing. Filled with interactable functions to make it functionable and accessible to gain the most insights of the tuition center and to be able to navigate easily around.
+This website is designed for an art tuition center cater to all ages. I want this project to look like an ideal tuition center website that has a great aspect for marketing. Filled with interactable functions to make it functionable and accessible to gain the most insights of the tuition center and to be able to navigate easily around.
 
 --------DESIGN PROCESS---------
 - As an Owner of a visual arts tuition center, I would like this website to represent fully and highlights the important features of this tuition center, so that I can make this tuition center stands out more than other competitors in the business world.
@@ -11,6 +11,21 @@ This website is designed for an art tuition center cater to children. I want thi
 - As a User-interface designer, I would like to design website that has a clear state of purpose of this tuition center, aesthetic pleasing to read, and mobile friendly to browse so that it helps me form a good impression on your prospective customers, provides good user experience and helps your website visitors access and navigate your website with ease for a better impression of this tuition center.
 - As a Marketing Manager, I would like to have a clear site navigation that links to social media, so that I can gain more users in our socials from this tuition center, which helps in increasing the name of our tuition center.
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+My design process starts with me designing a simple and clear wireframe in adobe illustrator. I start of by choosing my colour scheme, and I stick with simple and non-contrasting colour to make it minimalistic and clear for users to read. This website is for all ages.  I went online to study about the features needed in my wireframe that focusses on a tuition center. In this ideation part, I want my project to have a place to express the overview of this tuition center, and an interactive tool to hover icons to browse images of the activity happen in this place. Featuring testimonial sections that allows this tuition center to be credible, and interactive disocunt codes for users. I will design a navigation area for linking with other socials to market our brand. Providing details of class hours in the website. My aim of this project is to achieve an ideal website structure, by making it mobile responsive, easy to navigate and neatly organized. I want to  maximize the effectiveness of their websites to inform and sell to prospective buyers online. I design in a mobile responsive way, highly functionable and meet my goal to ahceive from this website. Able to attract users to join the classes available.
 
-My design process starts with me designing a simple and clear wireframe in adobe illustrator. I start of by choosing my colour scheme, and I stick with simple and non-contrasting colour to make it minimalistic and clear for users to read. This website is for all ages.  I went online to study about the features needed in my wireframe that focusses on a tuition center. In this ideation part, I want my project to have a place to express the overview of this tuition center, and an interactive tool to hover icons to browse images of the activity happen in this place. Featuring testimonial sections that allows this tuition center to be credible, and interactive disocunt codes for users. I will design a navigation area for linking with other socials to market our brand. Providing details of class hours in the website. My aim of this project is to achieve an ideal website structure, by making it mobile responsive, easy to navigate and neatly organized. I want to  maximize the effectiveness of their websites to inform and sell to prospective buyers online. I design in a mobile responsive way, highly functionable and meet my goal to ahceive from this website.
+--------FEATURES-------------
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The navigation bar on the top - allows user to click on the selected place to redirect where they want in just one click.
+About us section - gives the overview and summarised information about this tuition center.
+Button for trial class - will redirect you to add in details to join class.
+Interactive image slider - providing the images in a functionable way for users to click and browse.
+Link to Blog - allows users to redirect to a new HTML featuring a clear list of different activities in this place, placed with images and informations.
+Testimonial section - allows user to read postive feedback gained by other users, making this place looks reliable and appealing.
+Discount section - allows user to click and provide them with a promotional code and used JS to enable users to copy the code by clicking on it.
+Socials - enable users to click and redirect to our social media site.
+Timings - allows users to see the tuition class opening hours.
+
+
+
+
+
