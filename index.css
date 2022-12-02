@@ -759,7 +759,9 @@ hr.rounded {
   flex-basis: 100%;
 }
 
- 
+.blogtitle {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
 
 
