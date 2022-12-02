@@ -764,7 +764,12 @@ hr.rounded {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-
+.footercolor {
+  color: rgb(201, 93, 111);
+}
+.footerblog {
+  background-color: rgb(255, 208, 179);
+}
 
 
  

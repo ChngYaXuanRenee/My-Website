@@ -1,3 +1,4 @@
+
 function CopyToClipboard (containerid) {
     var btnCopy = document.getElementById( "copy" );
     var main = document.getElementById( "maincontent" );
