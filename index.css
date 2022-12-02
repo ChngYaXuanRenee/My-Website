@@ -741,7 +741,26 @@ hr.rounded {
     border-style: dashed;
     border-color: pink;
   }
-  
+
+  /* =========Blog page======== */
+
+.box1 {
+
+    align-items: center;
+    padding-top
+ 
+}
+
+.main-container header{
+
+  display: flex ;
+}
+
+
+.second-container .box2{
+  display: flex;
+  flex-direction: row-reverse;
+}
   
 
 
