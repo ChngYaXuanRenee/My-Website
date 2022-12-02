@@ -757,13 +757,25 @@ hr.rounded {
 }
 
 
+.main-container header p {
+  padding:40px;
+}
+
+
 .second-container .box2{
   display: flex;
   flex-direction: row-reverse;
 }
-  
+ 
+.second-container .box2 p{
+
+  padding:40px;
+}
 
 
+.image1 {
+  padding:50px;
+}
 
 
 
