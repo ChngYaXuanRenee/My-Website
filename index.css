@@ -744,42 +744,20 @@ hr.rounded {
 
   /* =========Blog page======== */
 
-.box1 {
 
-    align-items: center;
-    padding-top
- 
-}
-
-.main-container header{
-
-  display: flex ;
-}
-
-
-.main-container header p {
-  padding:40px;
-}
-
-
-.second-container .box2{
+.containerblog {
   display: flex;
-  flex-direction: row-reverse;
-}
- 
-.second-container .box2 p{
-
-  padding:40px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-
-.image1 {
-  padding:50px;
+.split {
+  flex-basis: 45%;
 }
 
-
-
-
+@media (max-width: 576px) {
+  flex-basis: 100%;
+}
 
  
 
