@@ -58,7 +58,27 @@ For using CSS social media icons graphics used at my social media channel for my
 link : https://www.bootstrapcdn.com/fontawesome/
 For the fonts and colour under testimonial section
 
+----------TESTING-----------
 
+1. Contact Us Form:
+i. If the form is empty, try submitting it to see if an error message regarding the required information displays.
+ii. Check to see if an appropriate error message shows by attempting to submit the form using an incorrect email address.
+iii. Try to submit the form with all inputs valid and verify that a success message appears.
+It works on different browser and works with every devices screen sizes.
+I intially had problems with this for the successful message that appears.
+
+2. Navigation Link to Blog:
+i. Test if link works
+ii. Try click on the link, and it redirects to the new page with a new tab
+iii. The new tab allows users to go back to original website
+It works on different browser and works with every devices screen sizes.
+I intially had problems where it redirects to new blog page at the same tab of my original website that makes it hard for users to go back to previous page.
+
+---------CREDITS------------
+---CONTENT---
+- The details from blog.html for oil painting class are copied from https://visualartscentre.sg/courses/oil-painting-course-trial/
+- The details from blog.html for watercolour class are copied from https://visualartscentre.sg/courses/professional-watercolour-painting-24-sessions-%E4%B8%93%E4%B8%9A%E6%B0%B4%E5%BD%A9%E7%94%BB24%E8%8A%82%E8%AF%BE/
+- The details from blog.html for still life drawing class are copied from https://laca.sg/products/life-figure-drawing-session
 
 
 
