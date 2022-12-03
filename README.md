@@ -74,7 +74,7 @@ For the fonts and colour under testimonial section
 - It works on different browser and works with every devices screen sizes.
 - intially had problems where it redirects to new blog page at the same tab of my original website that makes it hard for users to go back to previous page.
 
--------------------------------------------------------------------------CREDITS---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------CREDITS-------------------------------------------------------
  ----------CONTENT----------
 - The details from blog.html for oil painting class are copied from https://visualartscentre.sg/courses/oil-painting-course-trial/
 - The details from blog.html for watercolour class are copied from https://visualartscentre.sg/courses/professional-watercolour-painting-24-sessions-%E4%B8%93%E4%B8%9A%E6%B0%B4%E5%BD%A9%E7%94%BB24%E8%8A%82%E8%AF%BE/
@@ -90,6 +90,12 @@ For the fonts and colour under testimonial section
  - IMG of a group of children holding their artworks from  https://richmondhillartschool.com/fine-arts-program/drawing-classes-sk-grade-5-level/
  - IMG of a baby holding the paintbrush from https://fundacionsonrie.org/portfolio/entertainments/
 
+----------ACKNOWLEDGEMENTS--------
+- I received inspiration for this project of how a suitable wireframe will look like from https://mailchimp.com/resources/website-wireframe/
+- I received inspiration when I was browsing a real art tuition center from https://treeart.co/
+- I received inspiration for this project's colour scheme from https://www.schemecolor.com/pink-peach.php
+
+Thank you.
 
 
 
