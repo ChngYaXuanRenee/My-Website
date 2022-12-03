@@ -32,6 +32,27 @@ allows user to click and provide them with a promotional code and used JS to ena
 enable users to click and redirect to our social media site.
 - Timings:
 allows users to see the tuition class opening hours.
+- Subscribe channel
+enables users to add in their details to submit to get all of our latest news and discounts for each seasons.
+- Contact Us section 
+allows users to key in details and personal interest of this tuition center for the administrator to contact them back to provide them with available slots.
+- Questions channel
+Where users can chat with the bot regarding of their doubts of this tuition center.
+
+---------TECHNOLOGIES USED---------
+- HTML
+To structure my website, able to publish headings, text, images and hyperlinks.
+- CSS
+To design the website, giving pretty colours, layouts, fonts and spacings. 
+- JS
+To create the interactive part of the website, to make it functionable.
+- jQuery
+The website uses JQuery to simplify DOM manipulation.
+- CDNJS 
+link : https://cdnjs.com/libraries/font-awesome
+For using CSS icons graphics used in the navigation bar on the top of my website
+
+
 
 
 
