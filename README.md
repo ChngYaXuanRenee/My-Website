@@ -61,26 +61,34 @@ For the fonts and colour under testimonial section
 ----------TESTING-----------
 
 1. Contact Us Form:
-i. If the form is empty, try submitting it to see if an error message regarding the required information displays.
-ii. Check to see if an appropriate error message shows by attempting to submit the form using an incorrect email address.
-iii. Try to submit the form with all inputs valid and verify that a success message appears.
-It works on different browser and works with every devices screen sizes.
-I intially had problems with this for the successful message that appears.
+- If the form is empty, try submitting it to see if an error message regarding the required information displays.
+- Check to see if an appropriate error message shows by attempting to submit the form using an incorrect email address.
+- Try to submit the form with all inputs valid and verify that a success message appears.
+- works on different browser and works with every devices screen sizes.
+- intially had problems with this for the successful message that appears.
 
 2. Navigation Link to Blog:
-i. Test if link works
-ii. Try click on the link, and it redirects to the new page with a new tab
-iii. The new tab allows users to go back to original website
-It works on different browser and works with every devices screen sizes.
-I intially had problems where it redirects to new blog page at the same tab of my original website that makes it hard for users to go back to previous page.
+- Test if link works
+- Try click on the link, and it redirects to the new page with a new tab
+- The new tab allows users to go back to original website
+- It works on different browser and works with every devices screen sizes.
+- intially had problems where it redirects to new blog page at the same tab of my original website that makes it hard for users to go back to previous page.
 
----------CREDITS------------
----CONTENT---
+-------------------------------------------------------------------------CREDITS---------------------------------------------------------------------------------------
+ ----------CONTENT----------
 - The details from blog.html for oil painting class are copied from https://visualartscentre.sg/courses/oil-painting-course-trial/
 - The details from blog.html for watercolour class are copied from https://visualartscentre.sg/courses/professional-watercolour-painting-24-sessions-%E4%B8%93%E4%B8%9A%E6%B0%B4%E5%BD%A9%E7%94%BB24%E8%8A%82%E8%AF%BE/
 - The details from blog.html for still life drawing class are copied from https://laca.sg/products/life-figure-drawing-session
 
-
+ ----------MEDIA-----------
+ - IMG of 2 ladies with an oil paint work from https://visualartscentre.sg/courses/oil-painting-%E6%B2%B9%E7%94%BB-trial-class-az-paya-lebar-studio/
+ - IMG of Watercolour painting class from https://vulcanpost.com/604670/7-art-classes-adults-singapore/
+ - IMG of still life sketching class from https://laca.sg/products/life-figure-drawing-session
+ - IMG of purple, pink, blue gradient swirl in header from https://middletownarts.org/new-in-person-class-at-the-mac-spring-session-2022/
+ - IMG of a children art class teaching session from https://www.sassymamasg.com/best-art-classes-kids-singapore/
+ - IMG of a girl painting from https://expatliving.sg/art-classes-for-kids-school-holiday-activities/
+ - IMG of a group of children holding their artworks from  https://richmondhillartschool.com/fine-arts-program/drawing-classes-sk-grade-5-level/
+ - IMG of a baby holding the paintbrush from https://fundacionsonrie.org/portfolio/entertainments/
 
 
 
