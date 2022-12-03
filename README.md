@@ -40,17 +40,25 @@ allows users to key in details and personal interest of this tuition center for 
 Where users can chat with the bot regarding of their doubts of this tuition center.
 
 ---------TECHNOLOGIES USED---------
-- HTML
+- HTML -
 To structure my website, able to publish headings, text, images and hyperlinks.
-- CSS
+- CSS -
 To design the website, giving pretty colours, layouts, fonts and spacings. 
-- JS
+- JS -
 To create the interactive part of the website, to make it functionable.
-- jQuery
+- jQuery -
 The website uses JQuery to simplify DOM manipulation.
-- CDNJS 
+- CDNJS -
 link : https://cdnjs.com/libraries/font-awesome
 For using CSS icons graphics used in the navigation bar on the top of my website
+- Font Awesome Kit -
+link : https://fontawesome.com/docs/web/setup/use-kit
+For using CSS social media icons graphics used at my social media channel for my website
+- BootstrapCDN
+link : https://www.bootstrapcdn.com/fontawesome/
+For the fonts and colour under testimonial section
+
+
 
 
 
