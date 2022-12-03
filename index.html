@@ -17,21 +17,21 @@
 
 <body>
   <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
-    <a href="#"><i class="search"></i> Search</a> 
-    <a href="#"><i class="contact"></i> Contact Us For More Info</a> 
-    <a href="#"><i class="fa fa-fw fa-user"></i> Join Us</a>
+    <a class="active" href="#homenav"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="#searchnav"><i class="search"></i> Class Activities</a> 
+    <a href="#contactnav"><i class="contact"></i> Contact Us For More Info</a> 
+    <a href="#joinnav"><i class="fa fa-fw fa-user"></i> Join Us</a>
   </div>
   <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px"></div>
   <hr id="about">
 
   <!-- About Section -->
   <br>
-    <h2 class="testimonial-font"><center><mark style="background-color: pink; color:black;">About Us</mark></center></h2>
+    <h2 class="testimonial-font" id = "homenav"><center><mark style="background-color: pink; color:black;">About Us</mark></center></h2>
     <br>
       <h5><center><i>The Magical Art Class</i></center></h5>
       <br>
-      <div style="background-color: rgb(255, 234, 237)">
+      <div style="background-color: rgb(255, 234, 237)" >
         <br>
         <br>
         <p>
@@ -101,6 +101,8 @@
         <a class="next" onclick="plusSlides(1)">❯</a>
         
         </div>
+
+
         <br>
         
         <div style="text-align:center">
@@ -109,7 +111,35 @@
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
         
-
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        
+        </script>
 
         <br>
         <br>
@@ -118,7 +148,7 @@
 
 
         <nav>
-          <p class="navsize">Click on this link to find out more about our different kind of art sessions <a href="blog.html" target="_blank">Blog</a></p>
+          <p class="navsize" id = "searchnav">Click on this link to find out more about our different kind of art sessions <a href="blog.html" target="_blank">Blog</a></p>
         </nav>  
 
 
@@ -243,7 +273,7 @@
 <hr class="dashed">
 
 <br>
-<h2 class="testimonial-font"><center><mark style="background-color: pink; color:black;">Contact Us</mark></center></h2>
+<h2 class="testimonial-font" id = "contactnav"><center><mark style="background-color: pink; color:black;">Contact Us</mark></center></h2>
 <br>
 <p><strong>email:</strong> MagicalArtClass@gmail.com</p>
 <br>
@@ -338,7 +368,7 @@
           <div class="text-center">
               <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200" style="background-color:rgb(247, 220, 221);">Contact Us</h1>
               <br>
-              <p class="text-gray-400 dark:text-gray-400">Fill up the form below to send us a message.</p>
+              <p class="text-gray-400 dark:text-gray-400" id = "joinnav">Fill up the form below to send us a message.</p>
           </div> 
           <div class="m-7">
               <form action="https://api.web3forms.com/submit" method="POST" id="form">
