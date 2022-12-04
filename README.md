@@ -74,6 +74,12 @@ For the fonts and colour under testimonial section
 - It works on different browser and works with every devices screen sizes.
 - intially had problems where it redirects to new blog page at the same tab of my original website that makes it hard for users to go back to previous page.
 
+3. Navigation header
+- Test if each navigation box works
+- Try click on each of it, it redirects to the selected section of the website
+- It works on different browser and works with every devices screen sizes.
+- Initially had problems where it doesn't transition to the specific section of the website but I've managed to resolved it by using nav a and href.
+
 -------------------------------------------------------------------------CREDITS-------------------------------------------------------
  ----------CONTENT----------
 - The details from blog.html for oil painting class are copied from https://visualartscentre.sg/courses/oil-painting-course-trial/
